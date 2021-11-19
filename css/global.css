@@ -1,0 +1,95 @@
+html {
+  font-size: 20px;
+  box-sizing: border-box;
+}
+
+body {
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin: 0;
+
+  color: #111111;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 17px;
+  line-height: 1.5;
+  margin: 20px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+ul,
+ol {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+dl,
+dt,
+dd {
+  margin: 0;
+}
+
+/* boiler plate css for the landing page, can be removed */
+
+main {
+  text-align: center;
+  padding-top: 60px;
+}
+
+main p {
+  margin-top: 60px !important;
+}
+
+footer ul {
+  margin-top: 30px;
+  text-align: center;
+}
+
+footer li {
+  display: inline-block;
+  margin: 8px;
+}
+
+footer a {
+  color: #000;
+  transition: opacity 300ms ease;
+  opacity: 1;
+}
+
+footer a:hover {
+  opacity: 0.8;
+}
+
+footer a svg {
+  width: 30px;
+  height: 30px;
+  pointer-events: none;
+}
+
+.logo {
+  overflow: hidden;
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+}
+
+.svg {
+  width: 80px;
+  height: 80px;
+  /* margin: 80px 0; */
+}
