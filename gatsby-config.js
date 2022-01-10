@@ -4,7 +4,7 @@ require('dotenv').config({
 
 module.exports = {
   siteMetadata: {
-    title: 'Fauna Resources',
+    title: 'Fauna Authentication',
     siteUrl: 'https://fauna-authentication.vercel.app/',
     description: 'User authentication with FaunaDB and GatsbyJS',
     author: 'Lucas Johnson',
@@ -42,7 +42,7 @@ module.exports = {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `User authentication with FaunaDB and GatsbyJS`,
-        short_name: `Fauna Resources`,
+        short_name: `Fauna Authentication`,
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#000000`,
