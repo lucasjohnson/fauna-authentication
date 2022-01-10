@@ -3,7 +3,7 @@ import faunadb from 'faunadb';
 import Input from './Input';
 import Button from './Button';
 import { Paragraph } from '../emotion/typography';
-import { InputType, FaunaIndex, FormLabel } from '../enums/';
+import { InputType, FaunaIndex, FormLabel } from '../enums/index';
 import { User } from '../interfaces/';
 
 interface FormProps {
