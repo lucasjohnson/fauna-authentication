@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { useStaticQuery, graphql } from 'gatsby';
 import faunadb from 'faunadb';
 import { SiteQuery, Resources, Resource } from '../interfaces/';
-import { FaunaIndex, AnchorVariant } from '../enums/';
+import { FaunaIndex, AnchorVariant } from '../enums';
 import Layout from '../components/Layout/Layout';
 import SEO from '../components/Head/SEO';
 import Form from '../components/Form';
