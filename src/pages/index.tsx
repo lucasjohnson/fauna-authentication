@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { useStaticQuery, graphql } from 'gatsby';
 import faunadb from 'faunadb';
-import { SiteQuery, Resources, Resource } from '../interfaces/';
-import { FaunaIndex, AnchorVariant } from '../enums/index';
+import { SiteQuery, Resources, Resource } from '../interfaces/Index';
+import { FaunaIndex, AnchorVariant } from '../enums/Index';
 import Layout from '../components/Layout/Layout';
 import SEO from '../components/Head/SEO';
 import Form from '../components/Form';

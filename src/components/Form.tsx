@@ -3,8 +3,8 @@ import faunadb from 'faunadb';
 import Input from './Input';
 import Button from './Button';
 import { Paragraph } from '../emotion/typography';
-import { InputType, FaunaIndex, FormLabel } from '../enums/index';
-import { User } from '../interfaces/';
+import { InputType, FaunaIndex, FormLabel } from '../enums/Index';
+import { User } from '../interfaces/Index';
 
 interface FormProps {
   setToken: (token: string) => void;
