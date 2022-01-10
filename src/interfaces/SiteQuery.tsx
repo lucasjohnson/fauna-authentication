@@ -27,7 +27,8 @@ export interface SiteQuery {
           title: string;
         };
       };
-      Error404: string;
+      error404: string;
+      errorMessage: string;
     };
   };
 }
