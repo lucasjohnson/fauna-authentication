@@ -9,7 +9,7 @@ const ErrorPage: React.FC = () => {
     query {
       site {
         siteMetadata {
-          Error404
+          error404
         }
       }
     }
@@ -17,8 +17,8 @@ const ErrorPage: React.FC = () => {
 
   return (
     <Layout>
-      <SEO pageTitle={site.siteMetadata.Error404} />
-      <h2>{site.siteMetadata.Error404}</h2>
+      <SEO pageTitle={site.siteMetadata.error404} />
+      <h2>{site.siteMetadata.error404}</h2>
     </Layout>
   );
 };

@@ -1,6 +1,6 @@
 import React from 'react';
 import { useStaticQuery, graphql } from 'gatsby';
-import { SiteQuery } from '../../interfaces';
+import { SiteQuery } from '../../interfaces/';
 import Header from '../Header';
 import Footer from '../Footer';
 

@@ -1,7 +1,7 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
 import { useStaticQuery, graphql } from 'gatsby';
-import { SiteQuery } from '../../interfaces';
+import { SiteQuery } from '../../interfaces/';
 import Twitter from './Twitter';
 import Facebook from './Facebook';
 
