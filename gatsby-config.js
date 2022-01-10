@@ -1,9 +1,12 @@
+require('dotenv').config({
+  path: `.env.${process.env.NODE_ENV}`,
+});
+
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby Starter',
-    siteUrl: 'https://my-gatsby-starter.vercel.app/',
-    description:
-      'A bare-bones Gatsby TypeScript starter with out of the box SEO optimization.',
+    title: 'Fauna Resources',
+    siteUrl: 'https://fauna-authentication.vercel.app/',
+    description: 'User authentication with FaunaDB and GatsbyJS',
     author: 'Lucas Johnson',
     language: 'en',
     banner: {
@@ -22,11 +25,12 @@ module.exports = {
       },
       github: {
         username: 'lucasjohnson',
-        url: 'https://github.com/lucasjohnson/gatsby-starter',
+        url: 'https://github.com/lucasjohnson/fauna-authentication',
         title: 'GitHub',
       },
     },
-    Error404: '404: Page not found',
+    error404: '404: Page not found',
+    errorMessage: 'Your form has errors',
   },
   plugins: [
     `gatsby-plugin-image`,
@@ -36,8 +40,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `A bare-bones starter for Gatsby`,
-        short_name: `Gatsby Starter`,
+        name: `User authentication with FaunaDB and GatsbyJS`,
+        short_name: `Fauna Resources`,
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#000000`,

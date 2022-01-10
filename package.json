@@ -1,6 +1,6 @@
 {
   "name": "fauna-authentication",
-  "description": "",
+  "description": "User authentication with FaunaDB and GatsbyJS",
   "author": "Lucas Johnson <contact@lucasjohnson.co.nz (@_lucasjohnson)>",
   "private": false,
   "version": "0.1.0",
@@ -41,9 +41,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/lucasjohnson/gatsby-starter"
-  },
-  "bugs": {
-    "url": "https://github.com/lucasjohnson/gatsby-starter/issues"
+    "url": "https://github.com/lucasjohnson/fauna-authentication"
   }
 }
