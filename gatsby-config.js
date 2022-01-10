@@ -31,6 +31,7 @@ module.exports = {
     },
     error404: '404: Page not found',
     errorMessage: 'Your form has errors',
+    resources: 'Resources',
   },
   plugins: [
     `gatsby-plugin-image`,
