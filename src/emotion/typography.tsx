@@ -12,5 +12,5 @@ export const Paragraph = styled.p`
   font-weight: 400;
   color: rgba(0, 0, 0, 0.8);
   text-align: center;
-  margin-top: 8px;
+  margin: 0 0 20px;
 `;

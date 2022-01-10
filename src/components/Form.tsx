@@ -62,8 +62,10 @@ const Form: React.FC<FormProps> = ({ setToken, errorMessage }) => {
         type={InputType.PASSWORD}
         setUseState={handleInput}
       />
-      <Button onClickFunction={handleSubmit}>Login</Button>
-      {error && <Paragraph>{errorMessage}</Paragraph>}
+      <div>
+        <Button onClickFunction={handleSubmit}>Login</Button>
+        {error && <Paragraph>{errorMessage}</Paragraph>}
+      </div>
     </form>
   );
 };

@@ -18,7 +18,7 @@ const Input: React.FC<Props> = ({
   placeholder,
 }) => (
   <React.Fragment>
-    {label && <label className="label">{label}</label>}
+    {label && <label>{label}</label>}
     <input
       type={type}
       name={name}

@@ -9,7 +9,6 @@ import Form from '../components/Form';
 import Anchor from '../components/Anchor';
 import Button from '../components/Button';
 import { Paragraph, Heading } from '../emotion/typography';
-import GatsbyIcon from '../assets/svg/gatsby.svg';
 
 const IndexPage: React.FC = () => {
   const { site } = useStaticQuery<SiteQuery>(graphql`
@@ -51,7 +50,6 @@ const IndexPage: React.FC = () => {
   const renderForm = () => {
     return (
       <React.Fragment>
-        <GatsbyIcon />
         <Form
           setToken={setToken}
           errorMessage={site.siteMetadata.errorMessage}
